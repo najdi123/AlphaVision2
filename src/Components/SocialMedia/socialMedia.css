@@ -1,0 +1,55 @@
+.socialMedia {
+    position: fixed;
+    top: 40%;
+}
+
+.socialMediaHolder {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    margin: 36px 12px;
+}
+
+.socialMediaHolderExpanded {
+    background-color: rgba(242, 243, 244, 0.45);
+    width: 45px;
+    transition: 0.4s;
+}
+
+.socialMediaHolderCollapsed {
+    width: 0;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.socialMediaArrow {
+    transition: 0.4s;
+    width: 18px;
+    margin-left: 12px;
+}
+
+.svgHolder{
+    padding: 0 12px;
+}
+
+.socialMediaArrowReversed {
+    transition: 0.4s;
+    width: 18px;
+    margin-left: 12px;
+    transform: rotate(180deg);
+}
+
+.socialMediaArrowReversed:hover {
+    fill: #ffbf00;
+}
+
+.socialMediaArrow:hover {
+    fill: #ffbf00;
+}
+
+
+.socialMediaItem:hover {
+    color: #ffbf00;
+    cursor: pointer;
+}

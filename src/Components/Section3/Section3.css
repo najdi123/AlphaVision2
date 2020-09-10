@@ -1,0 +1,12 @@
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.counter1 {
+  font-size: 40px;
+}
+.counter2 {
+  font-size: 40px;
+}

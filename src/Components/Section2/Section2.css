@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "yekan";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../../fonts/iranyekanweblight.ttf);
+}
+
+.section2 {
+  padding: 60px 0;
+  background-color: #f2f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* height: 80vh; */
+}
+.section2 > h2 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.section2-flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.section2-flex-item {
+  flex: 30%;
+  /* padding: 20px; */
+}
+
+.card {
+  padding: 15px;
+}
+
+.cardTitle{
+  font-family: yekan, serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 20px 0;
+  text-align: right;
+}
+.cardText{
+  font-family: yekan, serif;
+  text-align: right;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.MuiCardMedia-img {
+  object-fit: contain!important;
+}
+
+.section2-item:first-child {
+  background-color: burlywood;
+}
+.section2-flex-item:nth-child(2) {
+  background-color: rebeccapurple;
+}
+.section2-flex-item:nth-child(3) {
+  background-color: hotpink;
+}
+.section2-flex-item:nth-child(4) {
+  background-color: yellow;
+}
+
+@media screen and (max-width: 1050px) {
+  .section2-flex-item {
+    flex: 30%;
+    /* padding: 30px; */
+  }
+
+  .section2{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section2-flex-item {
+    flex: 50%;
+    /* padding: 20px; */
+    /* max-width: 50%; */
+  }
+}
+@media only screen and (max-width: 450px) {
+  .section2-flex {
+    flex-direction: column;
+  }
+}

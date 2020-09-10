@@ -1,0 +1,85 @@
+.top-section {
+  background-color: rgb(
+    0,
+    61,
+    120
+  ); /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(0, 116, 255),
+    rgb(0, 61, 120)
+  );
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-section > h2 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.top-section-text:first-child {
+  color: white;
+  /* -webkit-text-stroke: 1px #ffbf00; */
+  /* font-size: 25px; */
+  animation: daghightar 2s ease-out;
+}
+.top-section-text:nth-child(2) {
+  color: white;
+  animation: saritar 1.5s ease-out;
+}
+.top-section-text:nth-child(3) {
+  color: #f2f3f4;
+  animation: bahooshtar 2s ease-out;
+}
+
+.top-section-left {
+  /* background-color: white; */
+  background: url("../../Images/Logo/uu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
+
+@keyframes daghightar {
+  0% {
+    opacity: 0;
+    transform: translateX(+200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes saritar {
+  0% {
+    /* opacity: 0; */
+    transform: translateX(+200px);
+  }
+  80% {
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes bahooshtar {
+  0% {
+    opacity: 0;
+    /* transform: translateX(+200px); */
+  }
+
+  30% {
+    opacity: 0.75;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+    /* transform: translateX(0); */
+  }
+}

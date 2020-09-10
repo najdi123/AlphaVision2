@@ -1,0 +1,43 @@
+.footerItemsHolder{
+    display: flex;
+    background: #666666;
+    padding: 20px 15px;
+}
+
+.footerItem{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.centerContent{
+    align-items: center;
+}
+
+.footerItem p{
+    padding: 0;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.gbLink{
+    width: 200px;
+}
+
+.gbLinkTitle{
+    margin-bottom: 30px;
+}
+
+.gpLink{
+    width: 120px;
+}
+
+.copyRightText{
+    text-align: center;
+    background: #666666;
+    padding: 8px 0;
+    font-size: 1.2rem;
+    margin: 0;
+}
